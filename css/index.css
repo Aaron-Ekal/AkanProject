@@ -95,3 +95,28 @@ a span{
   margin-right: 0.3rem;
   cursor: pointer;
 }
+#dob {
+  width: 370px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 15px;
+  background: #ff6f00;
+  color: white;
+  font-weight: 500;
+}
+#display {
+  padding-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+#display span {
+  font-weight: 700;
+  color: #ff6f00;
+}
+#display:hover{
+    columns: #ffffff;
+}
