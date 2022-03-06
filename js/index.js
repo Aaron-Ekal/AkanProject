@@ -10,5 +10,41 @@ function getDate() {
     male = document.getElementById('maleRadio'); // collecting from male radio
     female = document.getElementById('femaleRadio');
 
-   
+    if (dateInput == '') {
+        alert('Invalid! Enter a valid date');
+    } else if (male.checked == false && female.checked == false) {
+        alert('Select gender');
+
+    } else {
+
+        // Parsing the date
+        date = new Date(dateInput);
+        console.log(date);
+
+
+        // Getting century
+        CC = date.getFullYear();
+        CC = CC.toString().substr(0, 2);
+        console.log(CC);
+
+        // Getting year
+        YY = date.getFullYear();
+        YY = YY.toString().substr(2, 4);
+        console.log(YY);
+
+        // Getting month
+        MM = date.getMonth();
+        console.log(MM);
+
+        // Getting date
+        DD = date.getDate();
+        console.log(DD);
+
+        // Getting day of the week
+        d = date.getDay();
+        D = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+        console.log(d);
+
+        return d;
+    }
 }
