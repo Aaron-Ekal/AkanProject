@@ -59,3 +59,6 @@ validate = () => {
         document.getElementById("display").innerHTML = `Your Akan Name is ` + `<span>` + akanFemale[d] + `</span>` + `<br>` + `It means a Female born on ` + date.toLocaleString('en-us', { weekday: 'long' });
     }
 }
+buttonRead = () => {
+    validate();
+}
