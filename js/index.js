@@ -48,3 +48,14 @@ function getDate() {
         return d;
     }
 }
+validate = () => {
+    getDate();
+    if (male.checked) {
+        console.log(akanMale[d]);
+        document.getElementById("display").innerHTML = `Your Akan Name is ` + `<span>` + akanMale[d] + `</span>` + `<br>` + `It means a Male born on ` + date.toLocaleString('en-us', { weekday: 'long' });
+    }
+    else if (female.checked) {
+        console.log(akanFemale[d]);
+        document.getElementById("display").innerHTML = `Your Akan Name is ` + `<span>` + akanFemale[d] + `</span>` + `<br>` + `It means a Female born on ` + date.toLocaleString('en-us', { weekday: 'long' });
+    }
+}
