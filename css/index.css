@@ -35,3 +35,21 @@ a {
   color: #ff6f00;
   font-weight: 500;
 }
+.heading span{
+    color: rgb(10, 97, 97);
+}
+
+.heading  h1 span {
+  color: #ff6f00;
+}
+.content p {
+  width: 80%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 34px;
+  text-align: center;
+  margin: 2rem 0;
+}
+a span{
+    color: #ff6f00;
+}
