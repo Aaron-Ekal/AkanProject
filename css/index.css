@@ -15,3 +15,23 @@ a {
   justify-content: flex-end;
   align-items: center;
 }
+.header img {
+  height: 1.5rem;
+  margin: 1.5rem;
+}
+.header span{
+    color: #ff6f00;
+    font-weight: 700;
+    font-size: large;
+}
+.main {
+  display: flex;
+  justify-content: end;
+  padding: 0 3rem 0 8rem;
+}
+.heading {
+  font-family: "Libre Baskerville", serif;
+  font-size: 56px;
+  color: #ff6f00;
+  font-weight: 500;
+}
