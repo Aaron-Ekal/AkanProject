@@ -71,6 +71,15 @@ a span{
   color: #ffffff;
   cursor: pointer;
 }
+.btn p:hover{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(10, 97, 97);
+    color: #000;
+    width: 370px;
+    height: 65px;
+}
 .btn img {
   height: 30px;
 }
